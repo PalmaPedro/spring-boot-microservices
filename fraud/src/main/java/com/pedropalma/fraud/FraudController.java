@@ -1,8 +1,8 @@
 package com.pedropalma.fraud;
 
+import com.pedropalma.clients.fraud.FraudCheckResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.logging.log4j.util.PerformanceSensitive;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
